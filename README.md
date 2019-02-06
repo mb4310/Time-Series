@@ -26,6 +26,6 @@ We provide implementations and examples of the following approaches & sub-functi
 * The idea of these approaches is to transform the time series into a 2d-image (or several transformations to yield several images) and apply 2d-convolutional techniques to the image (stack of images).
 * Current implementation includes the following image transformations: recurrence plot, gramian angular field, markov transition field, continuous wavelet transform
 
-We emphasize that all these approaches are compatible with one another! We can (for example) combine recurrent and convolutional approaches by concatenating the output of the RNN 'core' with a flattened output of the final convolutional layer. Hope to have notebooks detailing these 'deep hybrid' approaches.
+We emphasize that all these approaches are compatible with one another! We can (for example) combine recurrent and convolutional approaches by concatenating the output of the RNN 'core' with a flattened output of the final convolutional layer.
 
 
