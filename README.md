@@ -17,7 +17,7 @@ We provide implementations and examples of the following approaches & sub-functi
 * optionally add unsupervised pre-training of LSTM classifier with [ULMFiT](https://arxiv.org/abs/1801.06146)-type approach
 * optionally add [attentional mechanism](https://nlp.stanford.edu/pubs/emnlp15_attn.pdf)
 
-2) [Transformers](https://arxiv.org/abs/1706.03762))-based approaches
+2) [Transformers](https://arxiv.org/abs/1706.03762)-based approaches
 
 3) Convolutional (temporal)
 * Stacked layers of 1d-convolution along time axis
