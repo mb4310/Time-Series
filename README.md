@@ -17,12 +17,9 @@ We provide implementations and examples of the following approaches & sub-functi
 * optionally add unsupervised pre-training of LSTM classifier with [ULMFiT](https://arxiv.org/abs/1801.06146)-type approach
 * optionally add [attentional mechanism](https://nlp.stanford.edu/pubs/emnlp15_attn.pdf)
 
-2) [Transformers](https://arxiv.org/abs/1706.03762)-based approaches
+2) [Transformer](https://arxiv.org/abs/1706.03762)-based approaches
 
-3) Convolutional (temporal)
-* Stacked layers of 1d-convolution along time axis
-
-4) Convolutional (transformational)
+3) Convolutional 
 * The idea of these approaches is to transform the time series into a 2d-image (or several transformations to yield several images) and apply 2d-convolutional techniques to the image (stack of images).
 * Current implementation includes the following image transformations: recurrence plot, gramian angular field, markov transition field, continuous wavelet transform
 
