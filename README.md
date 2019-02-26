@@ -9,7 +9,7 @@ Prior to the 2018 [M4 Time Series Forecasting Competition](https://robjhyndman.c
 
 The [winning submission](https://eng.uber.com/m4-forecasting-competition/) at M4 however, consisted of a hybrid approach that integrated exponential smoothing methods on top of an LSTM network and resulted in a whopping ten percent increase in sMAPE over competition benchmarks. Recent history tells us that when deep learning makes an apperance in a field as a state-of-the-art approach, it tends to become the dominant one shortly thereafter (e.g computer vision and more recently natural language processing). The purpose here is to provide simple implementations of deep learning approaches **that are easy to understand, combine and integrate with each other and classical methods**, notebooks detailing examples of how to use them, and a framework that makes testing and benchmarking on a variety of tasks relatively painless. Feel free to contact me to request implementation of a new idea you have seen or heard about or else add datasets you would like to see some method demonstrated on!
 
-## Deep Learning Approaches
+## Deep Learning Frameworks
 
 We provide implementations and examples of the following approaches & sub-functionality for both classification and forecasting problems:
 
